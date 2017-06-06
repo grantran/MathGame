@@ -1,6 +1,5 @@
 class GameState < Game
 
-  attr_accessor :currentplayer, :player1_lives, :player2_lives 
   def initialize()
     @currentplayer = 0
     @player1_lives = 3
